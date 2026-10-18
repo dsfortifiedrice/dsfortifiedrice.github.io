@@ -45,12 +45,13 @@ nav li:hover>.dd,nav li:focus-within>.dd{opacity:1;visibility:visible;transform:
 .btn:hover{background:var(--gd);transform:translateY(-3px);box-shadow:0 8px 18px rgba(47,77,53,.35)}
 .btn.pill{background:#fff;color:var(--g);border-radius:40px;padding:14px 32px;font-size:18px}.btn.pill:hover{background:var(--cream)}
 :focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+/* hero slider */
 .hero{position:relative;height:min(78vh,680px);min-height:460px;overflow:hidden;background:#3a2a12;color:#fff;padding:0}
 .slide{position:absolute;inset:0;opacity:0;transition:opacity 1s;display:flex;align-items:center;background-size:cover;background-position:center}
 .slide.on{opacity:1}
-.s1{background:linear-gradient(90deg,rgba(25,15,5,.75),rgba(25,15,5,.2)),url('Basmati.jpg') center/cover,radial-gradient(circle at 75% 55%,#9b7a3a,#3a2a12 70%)}
-.s2{background:linear-gradient(90deg,rgba(15,35,15,.78),rgba(15,35,15,.2)),url('Non-Basmati.jpg') center/cover,radial-gradient(circle at 75% 55%,#6f8f45,#1f3a22 70%)}
-.s3{background:linear-gradient(90deg,rgba(20,20,10,.78),rgba(20,20,10,.2)),url('Broken-rice.jpg') center/cover,radial-gradient(circle at 75% 55%,#b08a35,#2b2410 70%)}
+.s1{background:linear-gradient(90deg,rgba(25,15,5,.75),rgba(25,15,5,.2)),url('images/Basmati.jpg') center/cover,radial-gradient(circle at 75% 55%,#9b7a3a,#3a2a12 70%)}
+.s2{background:linear-gradient(90deg,rgba(15,35,15,.78),rgba(15,35,15,.2)),url('images/Non-Basmati.jpg') center/cover,radial-gradient(circle at 75% 55%,#6f8f45,#1f3a22 70%)}
+.s3{background:linear-gradient(90deg,rgba(20,20,10,.78),rgba(20,20,10,.2)),url('images/Broken-rice.jpg') center/cover,radial-gradient(circle at 75% 55%,#b08a35,#2b2410 70%)}
 .slide .wrap{width:100%}
 .slide h1{font-size:76px;color:#e8c766;text-transform:uppercase;letter-spacing:1px;max-width:760px;text-shadow:0 3px 14px rgba(0,0,0,.4)}
 .slide .tag{display:inline-block;background:#fff;color:var(--ink);font:600 24px Poppins,sans-serif;padding:6px 16px;margin:6px 0 24px}
@@ -63,6 +64,7 @@ nav li:hover>.dd,nav li:focus-within>.dd{opacity:1;visibility:visible;transform:
 .dots{position:absolute;bottom:22px;left:50%;transform:translateX(-50%);display:flex;gap:10px;z-index:5}
 .dots button{width:12px;height:12px;border-radius:50%;border:2px solid #fff;background:transparent;cursor:pointer;padding:0;transition:.3s}
 .dots button.on{background:var(--gold);border-color:var(--gold);width:30px;border-radius:8px}
+/* about */
 .about{display:grid;grid-template-columns:1fr 1.1fr;gap:70px;align-items:center}
 .pics{position:relative;height:520px}
 .pic{position:absolute;border-radius:200px;overflow:hidden;box-shadow:0 14px 34px rgba(0,0,0,.18);background:linear-gradient(160deg,#e3b44f,#8b6a22)}
@@ -76,6 +78,7 @@ nav li:hover>.dd,nav li:focus-within>.dd{opacity:1;visibility:visible;transform:
 .about p{color:var(--mute)}
 .glance{list-style:none;padding:0;margin:20px 0 28px;display:grid;grid-template-columns:1fr 1fr;gap:8px 18px}
 .glance li::before{content:"\2713";color:var(--g);font-weight:700;margin-right:8px}
+/* mvc */
 .mvc{background:var(--cream)}
 .three{display:grid;grid-template-columns:repeat(3,1fr);gap:34px;margin-top:40px}
 .mcard{background:var(--g);color:#fff;border-radius:10px;overflow:hidden;text-align:center;transition:transform .35s,box-shadow .35s}
@@ -88,6 +91,7 @@ nav li:hover>.dd,nav li:focus-within>.dd{opacity:1;visibility:visible;transform:
 .mcard p{padding:0 24px;font-size:15.5px;margin:0 0 24px;min-height:150px}
 .go{display:grid;place-items:center;width:52px;height:52px;border-radius:50%;background:#fff;color:var(--g);font-size:24px;margin:0 auto 28px;transition:transform .3s}
 .mcard:hover .go{transform:translateX(8px)}
+/* products */
 .prods{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:30px;margin-top:44px}
 .prod{text-align:center}
 .prod .ph{height:240px;border-radius:26px;border:1px solid var(--g);overflow:hidden;position:relative;display:grid;place-items:center;color:#fff;font:700 54px "Crimson Pro",serif;background:linear-gradient(160deg,#d7bc8a,#916e20)}
@@ -95,6 +99,7 @@ nav li:hover>.dd,nav li:focus-within>.dd{opacity:1;visibility:visible;transform:
 .prod:hover .ph img{transform:scale(1.12)}
 .prod h3{font:600 19px Poppins,sans-serif;text-transform:uppercase;margin:18px 0 6px}
 .prod p{font-size:14.5px;color:var(--mute);margin:0}
+/* why */
 .why{background:var(--cream)}
 .two{display:grid;grid-template-columns:1fr 1fr;gap:40px 56px;margin-top:40px}
 .why .it{display:flex;gap:16px;padding:20px;border-radius:10px;transition:background .3s,transform .3s}
@@ -102,7 +107,8 @@ nav li:hover>.dd,nav li:focus-within>.dd{opacity:1;visibility:visible;transform:
 .why .ic{flex:none;width:52px;height:52px;border-radius:50%;background:var(--g);color:#fff;display:grid;place-items:center;font-size:22px;transition:transform .5s}
 .why .it:hover .ic{transform:rotateY(360deg)}
 .why h3{font-size:28px;color:var(--g);margin-bottom:6px}.why p{margin:0;color:var(--mute);font-size:15.5px}
-.contact{background:linear-gradient(rgba(60,95,66,.93),rgba(47,77,53,.95)),url('organic.jpg') center/cover,var(--g);color:#fff}
+/* contact */
+.contact{background:linear-gradient(rgba(60,95,66,.93),rgba(47,77,53,.95)),url('images/organic.jpg') center/cover,var(--g);color:#fff}
 .cgrid{display:grid;grid-template-columns:1fr 1.25fr;gap:56px;align-items:center}
 .plate{width:min(100%,420px);aspect-ratio:1;border-radius:50%;margin:auto;display:grid;place-items:center;text-align:center;padding:36px;border:8px solid rgba(255,255,255,.85);background:radial-gradient(circle,#f5d58a,#c19a3e 36%,#7d5b1d 100%)}
 .plate>div{animation:spin 40s linear infinite reverse}
@@ -187,8 +193,8 @@ footer .lg{height:68px;background:#fff;padding:6px 12px;border-radius:5px;margin
 
 <section id="about"><div class="wrap about">
 <div class="pics rv">
-<div class="pic a"><img src="Basmati.jpg" alt="Rice processing" onerror="this.remove()"></div>
-<div class="pic b"><img src="Non-Basmati.jpg" alt="Rice export" onerror="this.remove()"></div>
+<div class="pic a"><img src="images/Basmati.jpg" alt="Rice processing" onerror="this.remove()"></div>
+<div class="pic b"><img src="images/Non-Basmati.jpg" alt="Rice export" onerror="this.remove()"></div>
 <div class="badge"><div><b>ISO</b>22000:2018<br>Certified</div></div>
 </div>
 <div class="rv d1">
@@ -203,18 +209,18 @@ footer .lg{height:68px;background:#fff;padding:6px 12px;border-radius:5px;margin
 <section class="mvc"><div class="wrap">
 <div class="center rv"><div class="script">What drives us</div><h2 class="title">Our Mission, Vision &amp; Commitment</h2></div>
 <div class="three">
-<div class="mcard rv"><div class="im"><div class="i1" style="background-image:url('Basmati.jpg')"></div></div><h3>Our Mission</h3><p>To meet what our customers need today and prepare for what the market will need tomorrow.</p></div>
-<div class="mcard rv d1"><div class="im"><div class="i2" style="background-image:url('Non-Basmati.jpg')"></div></div><h3>Our Vision</h3><p>To grow into a trusted global name in Indian rice, serving customers with consistency and care.</p></div>
-<div class="mcard rv d2"><div class="im"><div class="i3" style="background-image:url('Broken-rice.jpg')"></div></div><h3>Our Commitment</h3><p>Strict quality standards at each stage, honest dealings and dependable delivery every time.</p></div>
+<div class="mcard rv"><div class="im"><div class="i1" style="background-image:url('images/Basmati.jpg')"></div></div><h3>Our Mission</h3><p>To meet what our customers need today and prepare for what the market will need tomorrow.</p></div>
+<div class="mcard rv d1"><div class="im"><div class="i2" style="background-image:url('images/Non-Basmati.jpg')"></div></div><h3>Our Vision</h3><p>To grow into a trusted global name in Indian rice, serving customers with consistency and care.</p></div>
+<div class="mcard rv d2"><div class="im"><div class="i3" style="background-image:url('images/Broken-rice.jpg')"></div></div><h3>Our Commitment</h3><p>Strict quality standards at each stage, honest dealings and dependable delivery every time.</p></div>
 </div></div></section>
 
 <section id="products"><div class="wrap">
 <div class="center rv"><div class="script">Best for all of you</div><h2 class="title">Our Exclusive Products</h2></div>
 <div class="prods">
-<div class="prod rv"><div class="ph">B<img src="Basmati.jpg" alt="Basmati rice" loading="lazy" onerror="this.remove()"></div><h3>Basmati Rice</h3><p>1121, 1509 and 1718 in Steam, Sella and Raw varieties.</p></div>
-<div class="prod rv d1"><div class="ph">NB<img src="Non-Basmati.jpg" alt="Non-Basmati rice" loading="lazy" onerror="this.remove()"></div><h3>Non-Basmati Rice</h3><p>IR64, PR11 and PR14 for regular supply and bulk orders.</p></div>
-<div class="prod rv d2"><div class="ph">BR<img src="Broken-rice.jpg" alt="Broken rice" loading="lazy" onerror="this.remove()"></div><h3>100% Broken Rice</h3><p>Industrial grade bulk broken rice suited for feed and processing use.</p></div>
-<div class="prod rv d3"><div class="ph">PF<img src="organic.jpg" alt="Pest free organic rice" loading="lazy" onerror="this.remove()"></div><h3>Pest Free / Organic Rice</h3><p>Rice grown and handled with care to serve hygiene-focused markets.</p></div>
+<div class="prod rv"><div class="ph">B<img src="images/Basmati.jpg" alt="Basmati rice" loading="lazy" onerror="this.remove()"></div><h3>Basmati Rice</h3><p>1121, 1509 and 1718 in Steam, Sella and Raw varieties.</p></div>
+<div class="prod rv d1"><div class="ph">NB<img src="images/Non-Basmati.jpg" alt="Non-Basmati rice" loading="lazy" onerror="this.remove()"></div><h3>Non-Basmati Rice</h3><p>IR64, PR11 and PR14 for regular supply and bulk orders.</p></div>
+<div class="prod rv d2"><div class="ph">BR<img src="images/Broken-rice.jpg" alt="Broken rice" loading="lazy" onerror="this.remove()"></div><h3>100% Broken Rice</h3><p>Industrial grade bulk broken rice suited for feed and processing use.</p></div>
+<div class="prod rv d3"><div class="ph">PF<img src="images/organic.jpg" alt="Pest free organic rice" loading="lazy" onerror="this.remove()"></div><h3>Pest Free / Organic Rice</h3><p>Rice grown and handled with care to serve hygiene-focused markets.</p></div>
 </div></div></section>
 
 <section class="why" id="why"><div class="wrap">
