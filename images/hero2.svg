@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Hero slide 2 placeholder">
+  <defs>
+    <linearGradient id="g2" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#8ab26d"/>
+      <stop offset="100%" stop-color="#1f3a22"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#g2)"/>
+  <circle cx="980" cy="160" r="180" fill="#d8f0c4" opacity="0.2"/>
+  <path d="M0 620C220 520 410 520 610 640s290 155 590 0v160H0z" fill="#17311d" opacity="0.6"/>
+  <text x="90" y="330" fill="#f4f6ee" font-family="Arial, sans-serif" font-size="74" font-weight="700">Punjab</text>
+  <text x="90" y="410" fill="#d6efbe" font-family="Arial, sans-serif" font-size="62" font-weight="600">Rice Processing</text>
+  <text x="90" y="490" fill="#eef4e7" font-family="Arial, sans-serif" font-size="30" letter-spacing="2">SORTED • PACKED • SHIPPED</text>
+</svg>

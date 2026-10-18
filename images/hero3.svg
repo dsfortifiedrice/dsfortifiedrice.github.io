@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Hero slide 3 placeholder">
+  <defs>
+    <linearGradient id="g3" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#c7a85b"/>
+      <stop offset="100%" stop-color="#352712"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#g3)"/>
+  <circle cx="1010" cy="170" r="200" fill="#f9e8a0" opacity="0.2"/>
+  <path d="M0 620C190 540 360 550 560 640s300 110 640-20v180H0z" fill="#2a251a" opacity="0.65"/>
+  <text x="90" y="330" fill="#fff6d1" font-family="Arial, sans-serif" font-size="72" font-weight="700">Broken Rice</text>
+  <text x="90" y="410" fill="#f3d782" font-family="Arial, sans-serif" font-size="62" font-weight="600">Bulk Supply</text>
+  <text x="90" y="490" fill="#fff3d9" font-family="Arial, sans-serif" font-size="30" letter-spacing="2">INDUSTRIAL • CONSISTENT • READY TO SHIP</text>
+</svg>

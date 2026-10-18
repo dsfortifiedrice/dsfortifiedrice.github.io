@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>DS Fortified Rice Industries LLP | Basmati &amp; Non-Basmati Rice Exporter, Malerkotla, Punjab</title>
-<meta name="description" content="DS Fortified Rice Industries LLP is a rice processing and export company in Malerkotla, Punjab, supplying Basmati, Non-Basmati, industrial-grade broken rice and pest free / organic rice.">
+<meta name="description" content="DS Fortified Rice Industries LLP is a rice processing and export company in Malerkotla, Punjab, supplying Basmati, Non-Basmati, industrial-grade broken rice and pest-free/organic rice.">
 <link rel="icon" href="logo.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -35,23 +35,22 @@ nav a{text-decoration:none;font-weight:500;font-size:16px;padding:8px 0;position
 nav>ul>li>a::after{content:"";position:absolute;left:0;bottom:2px;height:2px;width:0;background:var(--g);transition:width .3s}
 nav>ul>li>a:hover::after,nav a.on::after{width:100%}
 nav a:hover,nav a.on{color:var(--g)}
-.dd{position:absolute;top:100%;left:-14px;background:#fff;min-width:240px;padding:8px 0;box-shadow:0 10px 24px rgba(0,0,0,.12);border-top:3px solid var(--g);opacity:0;visibility:hidden;transform:translateY(10px);transition:.25s;flex-direction:column;gap:0}
+.dd{position:absolute;top:100%;left:-14px;background:#fff;min-width:240px;padding:8px 0;box-shadow:0 10px 24px rgba(0,0,0,.12);border-top:3px solid var(--g);opacity:0;visibility:hidden;transform:translateY(8px);transition:opacity .25s,visibility .25s,transform .25s}
 nav li:hover>.dd,nav li:focus-within>.dd{opacity:1;visibility:visible;transform:none}
 .dd a{display:block;padding:9px 20px;font-size:15px}.dd a:hover{background:var(--cream)}
 .callbox{display:flex;align-items:center;gap:12px;border-left:1px solid #333;padding-left:22px;text-decoration:none;line-height:1.3}
 .callbox svg{width:34px;height:34px;fill:var(--g)}.callbox b{display:block;color:var(--g);font-weight:500}.callbox span{font-weight:600}
 .menu{display:none;background:none;border:0;font-size:30px;color:var(--g);cursor:pointer}
-.btn{display:inline-block;background:var(--g);color:#fff;font:600 16px "Crimson Pro",serif;letter-spacing:.4px;padding:13px 30px;border:0;border-radius:3px;text-decoration:none;cursor:pointer;transition:transform .25s,background .25s,box-shadow .25s}
+.btn{display:inline-block;background:var(--g);color:#fff;font:600 16px "Crimson Pro",serif;letter-spacing:.4px;padding:13px 30px;border:0;border-radius:3px;text-decoration:none;cursor:pointer;transition:transform .25s,box-shadow .25s,background .25s}
 .btn:hover{background:var(--gd);transform:translateY(-3px);box-shadow:0 8px 18px rgba(47,77,53,.35)}
 .btn.pill{background:#fff;color:var(--g);border-radius:40px;padding:14px 32px;font-size:18px}.btn.pill:hover{background:var(--cream)}
 :focus-visible{outline:2px solid var(--gold);outline-offset:3px}
-/* hero slider */
 .hero{position:relative;height:min(78vh,680px);min-height:460px;overflow:hidden;background:#3a2a12;color:#fff;padding:0}
 .slide{position:absolute;inset:0;opacity:0;transition:opacity 1s;display:flex;align-items:center;background-size:cover;background-position:center}
 .slide.on{opacity:1}
-.s1{background:linear-gradient(90deg,rgba(25,15,5,.75),rgba(25,15,5,.2)),url(images/hero1.jpg) center/cover,radial-gradient(circle at 75% 55%,#9b7a3a,#3a2a12 70%)}
-.s2{background:linear-gradient(90deg,rgba(15,35,15,.78),rgba(15,35,15,.2)),url(images/hero2.jpg) center/cover,radial-gradient(circle at 75% 55%,#6f8f45,#1f3a22 70%)}
-.s3{background:linear-gradient(90deg,rgba(20,20,10,.78),rgba(20,20,10,.2)),url(images/hero3.jpg) center/cover,radial-gradient(circle at 75% 55%,#b08a35,#2b2410 70%)}
+.s1{background:linear-gradient(90deg,rgba(25,15,5,.75),rgba(25,15,5,.2)),url(images/hero1.svg) center/cover,radial-gradient(circle at 75% 55%,#9b7a3a,#3a2a12 70%)}
+.s2{background:linear-gradient(90deg,rgba(15,35,15,.78),rgba(15,35,15,.2)),url(images/hero2.svg) center/cover,radial-gradient(circle at 75% 55%,#6f8f45,#1f3a22 70%)}
+.s3{background:linear-gradient(90deg,rgba(20,20,10,.78),rgba(20,20,10,.2)),url(images/hero3.svg) center/cover,radial-gradient(circle at 75% 55%,#b08a35,#2b2410 70%)}
 .slide .wrap{width:100%}
 .slide h1{font-size:76px;color:#e8c766;text-transform:uppercase;letter-spacing:1px;max-width:760px;text-shadow:0 3px 14px rgba(0,0,0,.4)}
 .slide .tag{display:inline-block;background:#fff;color:var(--ink);font:600 24px Poppins,sans-serif;padding:6px 16px;margin:6px 0 24px}
@@ -64,7 +63,6 @@ nav li:hover>.dd,nav li:focus-within>.dd{opacity:1;visibility:visible;transform:
 .dots{position:absolute;bottom:22px;left:50%;transform:translateX(-50%);display:flex;gap:10px;z-index:5}
 .dots button{width:12px;height:12px;border-radius:50%;border:2px solid #fff;background:transparent;cursor:pointer;padding:0;transition:.3s}
 .dots button.on{background:var(--gold);border-color:var(--gold);width:30px;border-radius:8px}
-/* about */
 .about{display:grid;grid-template-columns:1fr 1.1fr;gap:70px;align-items:center}
 .pics{position:relative;height:520px}
 .pic{position:absolute;border-radius:200px;overflow:hidden;box-shadow:0 14px 34px rgba(0,0,0,.18);background:linear-gradient(160deg,#e3b44f,#8b6a22)}
@@ -72,13 +70,12 @@ nav li:hover>.dd,nav li:focus-within>.dd{opacity:1;visibility:visible;transform:
 .pic.a{left:0;top:0;width:250px;height:420px;animation:float 7s ease-in-out infinite}
 .pic.b{left:210px;top:90px;width:280px;height:420px;background:linear-gradient(160deg,#a9d08a,#456a4b);animation:float 8s ease-in-out -3s infinite}
 @keyframes float{50%{transform:translateY(-14px)}}
-.badge{position:absolute;left:150px;top:230px;width:150px;height:150px;border-radius:50%;background:var(--gold);color:#fff;display:grid;place-items:center;text-align:center;z-index:2;font:600 15px/1.25 Poppins;box-shadow:0 8px 20px rgba(0,0,0,.2)}
+.badge{position:absolute;left:150px;top:230px;width:150px;height:150px;border-radius:50%;background:var(--gold);color:#fff;display:grid;place-items:center;text-align:center;z-index:2;font:600 15px Poppins,sans-serif}
 .badge b{display:block;font:700 30px "Crimson Pro",serif}
 .about h3{font:600 22px Poppins,sans-serif;line-height:1.5}
 .about p{color:var(--mute)}
 .glance{list-style:none;padding:0;margin:20px 0 28px;display:grid;grid-template-columns:1fr 1fr;gap:8px 18px}
 .glance li::before{content:"\2713";color:var(--g);font-weight:700;margin-right:8px}
-/* mvc */
 .mvc{background:var(--cream)}
 .three{display:grid;grid-template-columns:repeat(3,1fr);gap:34px;margin-top:40px}
 .mcard{background:var(--g);color:#fff;border-radius:10px;overflow:hidden;text-align:center;transition:transform .35s,box-shadow .35s}
@@ -91,15 +88,13 @@ nav li:hover>.dd,nav li:focus-within>.dd{opacity:1;visibility:visible;transform:
 .mcard p{padding:0 24px;font-size:15.5px;margin:0 0 24px;min-height:150px}
 .go{display:grid;place-items:center;width:52px;height:52px;border-radius:50%;background:#fff;color:var(--g);font-size:24px;margin:0 auto 28px;transition:transform .3s}
 .mcard:hover .go{transform:translateX(8px)}
-/* products */
 .prods{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:30px;margin-top:44px}
 .prod{text-align:center}
-.prod .ph{height:240px;border-radius:26px;border:1px solid var(--g);overflow:hidden;position:relative;display:grid;place-items:center;color:#fff;font:700 54px "Crimson Pro",serif;background:linear-gradient(135deg,#6f9a55,var(--gd));box-shadow:0 8px 20px rgba(0,0,0,.12)}
+.prod .ph{height:240px;border-radius:26px;border:1px solid var(--g);overflow:hidden;position:relative;display:grid;place-items:center;color:#fff;font:700 54px "Crimson Pro",serif;background:linear-gradient(160deg,#d7bc8a,#916e20)}
 .prod .ph img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .6s}
 .prod:hover .ph img{transform:scale(1.12)}
 .prod h3{font:600 19px Poppins,sans-serif;text-transform:uppercase;margin:18px 0 6px}
 .prod p{font-size:14.5px;color:var(--mute);margin:0}
-/* why */
 .why{background:var(--cream)}
 .two{display:grid;grid-template-columns:1fr 1fr;gap:40px 56px;margin-top:40px}
 .why .it{display:flex;gap:16px;padding:20px;border-radius:10px;transition:background .3s,transform .3s}
@@ -107,10 +102,9 @@ nav li:hover>.dd,nav li:focus-within>.dd{opacity:1;visibility:visible;transform:
 .why .ic{flex:none;width:52px;height:52px;border-radius:50%;background:var(--g);color:#fff;display:grid;place-items:center;font-size:22px;transition:transform .5s}
 .why .it:hover .ic{transform:rotateY(360deg)}
 .why h3{font-size:28px;color:var(--g);margin-bottom:6px}.why p{margin:0;color:var(--mute);font-size:15.5px}
-/* contact */
-.contact{background:linear-gradient(rgba(60,95,66,.93),rgba(47,77,53,.95)),url(images/field.jpg) center/cover,var(--g);color:#fff}
+.contact{background:linear-gradient(rgba(60,95,66,.93),rgba(47,77,53,.95)),url(images/hero2.svg) center/cover,var(--g);color:#fff}
 .cgrid{display:grid;grid-template-columns:1fr 1.25fr;gap:56px;align-items:center}
-.plate{width:min(100%,420px);aspect-ratio:1;border-radius:50%;margin:auto;display:grid;place-items:center;text-align:center;padding:36px;border:8px solid rgba(255,255,255,.85);background:radial-gradient(circle,#fff,#efe6cf);color:var(--gd);animation:spin 40s linear infinite}
+.plate{width:min(100%,420px);aspect-ratio:1;border-radius:50%;margin:auto;display:grid;place-items:center;text-align:center;padding:36px;border:8px solid rgba(255,255,255,.85);background:radial-gradient(circle,#f5d58a,#c19a3e 36%,#7d5b1d 100%)}
 .plate>div{animation:spin 40s linear infinite reverse}
 @keyframes spin{to{transform:rotate(360deg)}}
 .plate img{max-width:150px}.plate p{margin:8px 0 0;font:600 17px Poppins}
@@ -123,24 +117,21 @@ input:focus,textarea:focus{outline:0;border-color:var(--gold);box-shadow:0 0 0 4
 .info{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px;margin-top:50px;text-align:center}
 .info p{margin:0;font-size:15px}.info b{display:block;font:700 22px "Crimson Pro",serif;color:#e8c766}
 .info a{text-decoration:none}.info a:hover{text-decoration:underline}
-/* certs */
 .cwrap{position:relative;max-width:980px;margin:40px auto 0;padding:0 56px}
 .track{display:flex;gap:30px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;padding:12px 4px}
 .track::-webkit-scrollbar{display:none}
-.cert{flex:none;width:200px;height:200px;border-radius:50%;background:#efefef;scroll-snap-align:start;display:grid;place-items:center;text-align:center;font:700 24px/1.15 "Crimson Pro",serif;color:var(--gd);padding:26px;border:6px double var(--g);transition:transform .35s,background .35s,color .35s}
+.cert{flex:none;width:200px;height:200px;border-radius:50%;background:#efefef;scroll-snap-align:start;display:grid;place-items:center;text-align:center;font:700 24px/1.15 "Crimson Pro",serif;color:var(--g)}
 .cert small{display:block;font:500 12px Poppins;color:var(--mute);margin-top:4px}
 .cert:hover{transform:scale(1.08) rotate(-3deg);background:var(--g);color:#fff}.cert:hover small{color:#e8f1e4}
 .ca{position:absolute;top:50%;transform:translateY(-50%);background:none;border:0;font-size:38px;color:var(--g);cursor:pointer;transition:transform .25s}
 .ca.l{left:0}.ca.r{right:0}.ca:hover{transform:translateY(-50%) scale(1.3)}
-/* footer */
 footer{background:var(--gd);color:#e6efe3;padding:64px 0 22px;font-size:15px}
 .fg{display:grid;grid-template-columns:1.5fr 1fr 1fr 1.5fr;gap:36px}
 footer h3{font-size:30px;color:#fff;font-family:Poppins,sans-serif;font-weight:500}
 footer ul{list-style:none;padding:0;margin:0}footer li{margin-bottom:10px}footer a{text-decoration:none}footer a:hover{color:var(--gold)}
 footer .lg{height:68px;background:#fff;padding:6px 12px;border-radius:5px;margin-bottom:14px}
 .copy{border-top:1px solid rgba(255,255,255,.25);margin-top:34px;padding-top:18px;font-size:14px}
-/* floating */
-.wa{position:fixed;left:24px;bottom:24px;z-index:60;width:62px;height:62px;border-radius:14px;background:#25d366;display:grid;place-items:center;box-shadow:0 5px 16px rgba(0,0,0,.3);animation:pulse 2.4s infinite}
+.wa{position:fixed;left:24px;bottom:24px;z-index:60;width:62px;height:62px;border-radius:14px;background:#25d366;display:grid;place-items:center;box-shadow:0 5px 16px rgba(0,0,0,.3);animation:pulse 2.5s infinite}
 .wa svg{width:38px;fill:#fff}
 @keyframes pulse{0%{box-shadow:0 0 0 0 rgba(37,211,102,.6)}70%{box-shadow:0 0 0 18px rgba(37,211,102,0)}100%{box-shadow:0 0 0 0 rgba(37,211,102,0)}}
 .fc{position:fixed;right:24px;bottom:24px;z-index:60;display:flex;align-items:center;gap:0;text-decoration:none}
@@ -148,10 +139,9 @@ footer .lg{height:68px;background:#fff;padding:6px 12px;border-radius:5px;margin
 .fc i{width:64px;height:64px;border-radius:50%;background:#2db36a;display:grid;place-items:center;box-shadow:0 5px 16px rgba(0,0,0,.3);animation:ring 3s infinite}
 .fc svg{width:30px;fill:#fff}
 @keyframes ring{0%,80%,100%{transform:none}84%,92%{transform:rotate(-14deg)}88%,96%{transform:rotate(14deg)}}
-#top{position:fixed;right:30px;bottom:104px;z-index:60;width:44px;height:44px;border-radius:50%;border:0;background:var(--gold);color:#fff;font-size:20px;cursor:pointer;opacity:0;transform:translateY(20px);pointer-events:none;transition:.3s}
+#top{position:fixed;right:30px;bottom:104px;z-index:60;width:44px;height:44px;border-radius:50%;border:0;background:var(--gold);color:#fff;font-size:20px;cursor:pointer;opacity:0;transform:translateY(18px);pointer-events:none;transition:opacity .25s,transform .25s}
 #top.show{opacity:1;transform:none;pointer-events:auto}
 #bar{position:fixed;top:0;left:0;height:4px;width:0;background:var(--gold);z-index:100}
-/* reveal */
 .rv{opacity:0;transform:translateY(40px);transition:opacity .8s,transform .8s}
 .rv.in{opacity:1;transform:none}
 .rv.d1{transition-delay:.15s}.rv.d2{transition-delay:.3s}.rv.d3{transition-delay:.45s}
@@ -184,28 +174,28 @@ footer .lg{height:68px;background:#fff;padding:6px 12px;border-radius:5px;margin
 <li><a href="#products">Products &#9662;</a><ul class="dd"><li><a href="#products">Basmati Rice</a></li><li><a href="#products">Non-Basmati Rice</a></li><li><a href="#products">100% Broken Rice</a></li><li><a href="#products">Pest Free / Organic Rice</a></li></ul></li>
 <li><a href="#why">Why Us</a></li><li><a href="#quality">Certifications</a></li><li><a href="#contact">Contact Us</a></li>
 </ul></nav>
-<a class="callbox" href="tel:+917009470312"><svg viewBox="0 0 24 24"><path d="M6.6 10.8a15 15 0 006.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 013 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.300.2 2.500.6 3.600.1.300 0 .700-.2 1z"/></svg><div><b>Call Anytime</b><span>+91 70094 70312</span></div></a>
+<a class="callbox" href="tel:+917009470312"><svg viewBox="0 0 24 24"><path d="M6.6 10.8a15 15 0 006.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 013 4c0-.6.4-1 1-1h3.4c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.2.4.1.8-.2 1l-2.2 2.2z"></path></svg><div><b>Talk to us</b><span>+91 70094 70312</span></div></a>
 </div></header>
 
 <section class="hero" id="home" aria-label="Featured">
 <div class="slide s1 on"><div class="wrap"><h1>Discover the art of fine Basmati rice</h1><div class="tag">Aromatic Perfection in Every Grain</div><div><a class="btn pill" href="#contact">Request a Quote</a></div></div></div>
-<div class="slide s2"><div class="wrap"><h1>Trusted rice processing &amp; export from Punjab</h1><div class="tag">Sorted, processed and shipped worldwide</div><div><a class="btn pill" href="#products">Our Products</a></div></div></div>
-<div class="slide s3"><div class="wrap"><h1>Industrial grade broken rice in bulk</h1><div class="tag">For distilleries, ethanol plants and breweries</div><div><a class="btn pill" href="#contact">Talk to Our Team</a></div></div></div>
+<div class="slide s2"><div class="wrap"><h1>Trusted rice processing &amp; export from Punjab</h1><div class="tag">Sorted, processed and shipped worldwide</div><div><a class="btn pill" href="#products">Explore Products</a></div></div></div>
+<div class="slide s3"><div class="wrap"><h1>Industrial grade broken rice in bulk</h1><div class="tag">For distilleries, ethanol plants and breweries</div><div><a class="btn pill" href="#contact">Speak With Us</a></div></div></div>
 <button class="arr l" aria-label="Previous slide" id="pv">&#9664;</button><button class="arr r" aria-label="Next slide" id="nx">&#9654;</button>
 <div class="dots" id="dots"></div>
 </section>
 
 <section id="about"><div class="wrap about">
 <div class="pics rv">
-<div class="pic a"><img src="images/about1.jpg" alt="" onerror="this.remove()"></div>
-<div class="pic b"><img src="images/about2.jpg" alt="" onerror="this.remove()"></div>
+<div class="pic a"><img src="images/about1.svg" alt="Rice processing" onerror="this.remove()"></div>
+<div class="pic b"><img src="images/about2.svg" alt="Rice export" onerror="this.remove()"></div>
 <div class="badge"><div><b>ISO</b>22000:2018<br>Certified</div></div>
 </div>
 <div class="rv d1">
 <div class="script">DS Fortified Rice Industries</div>
 <h2 class="title">India&rsquo;s Trusted Rice Export Company</h2>
 <h3>A vertically integrated rice company based in Malerkotla, Punjab, certified under ISO 22000:2018.</h3>
-<p>We handle sorting, processing, packing and export of Basmati and Non-Basmati rice, and we also supply 100% broken rice for industrial use and pest free / organic rice. We work with importers, distributors and food companies who want consistent grain, clear communication and reliable shipments.</p>
+<p>We handle sorting, processing, packing and export of Basmati and Non-Basmati rice, and we also supply 100% broken rice for industrial use and pest free / organic rice. We work with importers, processors and food businesses across regions.</p>
 <ul class="glance"><li>FSSAI Central licensed</li><li>APEDA registered exporter</li><li>50 kg PP bags &amp; custom packs</li><li>Shipments from Indian ports</li></ul>
 <a class="btn" href="#contact">Read More</a>
 </div></div></section>
@@ -213,24 +203,24 @@ footer .lg{height:68px;background:#fff;padding:6px 12px;border-radius:5px;margin
 <section class="mvc"><div class="wrap">
 <div class="center rv"><div class="script">What drives us</div><h2 class="title">Our Mission, Vision &amp; Commitment</h2></div>
 <div class="three">
-<div class="mcard rv"><div class="im"><div class="i1" style="background-image:url(images/mission.jpg)"></div></div><h3>Our Mission</h3><p>To meet what our customers need today and prepare for what they will need next, with dependable quality and fair pricing on every order.</p><div class="go">&rarr;</div></div>
-<div class="mcard rv d1"><div class="im"><div class="i2" style="background-image:url(images/vision.jpg)"></div></div><h3>Our Vision</h3><p>To grow into a trusted global name in Indian rice, serving buyers across continents with pure, wholesome grain.</p><div class="go">&rarr;</div></div>
-<div class="mcard rv d2"><div class="im"><div class="i3" style="background-image:url(images/commitment.jpg)"></div></div><h3>Our Commitment</h3><p>Strict quality standards at each stage, honest dealings, and long-term relationships with the buyers and farmers we work with.</p><div class="go">&rarr;</div></div>
+<div class="mcard rv"><div class="im"><div class="i1" style="background-image:url(images/mission.svg)"></div></div><h3>Our Mission</h3><p>To meet what our customers need today and prepare for what the market will need tomorrow.</p></div>
+<div class="mcard rv d1"><div class="im"><div class="i2" style="background-image:url(images/vision.svg)"></div></div><h3>Our Vision</h3><p>To grow into a trusted global name in Indian rice, serving customers with consistency and care.</p></div>
+<div class="mcard rv d2"><div class="im"><div class="i3" style="background-image:url(images/commitment.svg)"></div></div><h3>Our Commitment</h3><p>Strict quality standards at each stage, honest dealings and dependable delivery every time.</p></div>
 </div></div></section>
 
 <section id="products"><div class="wrap">
 <div class="center rv"><div class="script">Best for all of you</div><h2 class="title">Our Exclusive Products</h2></div>
 <div class="prods">
-<div class="prod rv"><div class="ph">B<img src="images/basmati.jpg" alt="Basmati rice" loading="lazy" onerror="this.remove()"></div><h3>Basmati Rice</h3><p>1121, 1509 and 1718 in Steam, Sella and Raw forms. Long grain, aromatic and fluffy.</p></div>
-<div class="prod rv d1"><div class="ph">NB<img src="images/non-basmati.jpg" alt="Non-Basmati rice" loading="lazy" onerror="this.remove()"></div><h3>Non-Basmati Rice</h3><p>IR64, PR11 and PR14 for everyday volume demand across many markets.</p></div>
-<div class="prod rv d2"><div class="ph">BR<img src="images/broken-rice.jpg" alt="Broken rice" loading="lazy" onerror="this.remove()"></div><h3>100% Broken Rice</h3><p>Industrial grade bulk broken rice for distilleries, ethanol plants, breweries and food makers.</p></div>
-<div class="prod rv d3"><div class="ph">PF<img src="images/organic.jpg" alt="Pest free organic rice" loading="lazy" onerror="this.remove()"></div><h3>Pest Free / Organic Rice</h3><p>Rice grown and handled with minimal chemical use, for residue-conscious buyers.</p></div>
+<div class="prod rv"><div class="ph">B<img src="images/basmati.svg" alt="Basmati rice" loading="lazy" onerror="this.remove()"></div><h3>Basmati Rice</h3><p>1121, 1509 and 1718 in Steam, Sella and Raw varieties.</p></div>
+<div class="prod rv d1"><div class="ph">NB<img src="images/non-basmati.svg" alt="Non-Basmati rice" loading="lazy" onerror="this.remove()"></div><h3>Non-Basmati Rice</h3><p>IR64, PR11 and PR14 for regular supply and bulk orders.</p></div>
+<div class="prod rv d2"><div class="ph">BR<img src="images/broken-rice.svg" alt="Broken rice" loading="lazy" onerror="this.remove()"></div><h3>100% Broken Rice</h3><p>Industrial grade bulk broken rice suited for feed and processing use.</p></div>
+<div class="prod rv d3"><div class="ph">PF<img src="images/organic.svg" alt="Pest free organic rice" loading="lazy" onerror="this.remove()"></div><h3>Pest Free / Organic Rice</h3><p>Rice grown and handled with care to serve hygiene-focused markets.</p></div>
 </div></div></section>
 
 <section class="why" id="why"><div class="wrap">
 <div class="rv"><div class="script">Why &ldquo;DS Fortified Rice&rdquo;?</div><h2 class="title">Ensuring Purity and Perfection</h2></div>
 <div class="two">
-<div class="it rv"><div class="ic">&#10022;</div><div><h3>Careful Sorting &amp; Processing</h3><p>Our unit sorts and processes grain with attention to size, colour and cleanliness so each lot looks and cooks the way you expect.</p></div></div>
+<div class="it rv"><div class="ic">&#10022;</div><div><h3>Careful Sorting &amp; Processing</h3><p>Our unit sorts and processes grain with attention to size, colour and cleanliness so each lot looks and performs consistently.</p></div></div>
 <div class="it rv d1"><div class="ic">&#10003;</div><div><h3>Quality Is Paramount</h3><p>Our ISO 22000:2018 food safety system guides how we handle, store and pack rice, with checks before every dispatch.</p></div></div>
 <div class="it rv"><div class="ic">&#9992;</div><div><h3>Export-Ready Paperwork</h3><p>We hold an Import Export Code and APEDA registration, and we prepare the documents your shipment needs.</p></div></div>
 <div class="it rv d1"><div class="ic">&#9776;</div><div><h3>Packing Your Way</h3><p>Standard 50 kg PP bags, or custom sizes and branding to suit your market.</p></div></div>
@@ -270,27 +260,24 @@ footer .lg{height:68px;background:#fff;padding:6px 12px;border-radius:5px;margin
 <div class="fg">
 <div><img class="lg" src="logo.png" alt="DS Fortified Rice"><p><b>DS Fortified Rice Industries LLP</b> is an ISO 22000:2018 certified manufacturer and exporter of Basmati and Non-Basmati rice from Punjab, India.</p></div>
 <div><h3>Quick Links</h3><ul><li><a href="#home">Home</a></li><li><a href="#about">About Us</a></li><li><a href="#why">Why Us</a></li><li><a href="#contact">Contact Us</a></li></ul></div>
-<div><h3>Categories</h3><ul><li><a href="#products">Basmati</a></li><li><a href="#products">Non-Basmati Rice</a></li><li><a href="#products">Broken Rice</a></li><li><a href="#products">Pest Free / Organic Rice</a></li></ul></div>
+<div><h3>Categories</h3><ul><li><a href="#products">Basmati</a></li><li><a href="#products">Non-Basmati Rice</a></li><li><a href="#products">Broken Rice</a></li><li><a href="#products">Pest Free / Organic</a></li></ul></div>
 <div><h3>Contact Us</h3><ul><li>Address: Near Heena Haveli, Ludhiana Road, Malerkotla, Punjab - 148023</li><li>Name: Nitish Goyal</li><li>Phone: <a href="tel:+917009470312">+91 70094 70312</a></li><li>Email: <a href="mailto:sales@dsfortified.com">sales@dsfortified.com</a></li></ul></div>
 </div>
 <div class="copy">Copyright &copy; 2026 DS Fortified Rice Industries LLP | All rights reserved</div>
 </div></footer>
 
-<a class="wa" href="https://wa.me/917009470312" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 00-8.600 15L2 22l5.200-1.400A10 10 0 1012 2zm5.200 14c-.2.600-1.300 1.200-1.800 1.200-.5.100-1 .2-3.300-.7-2.800-1.200-4.600-4-4.700-4.200-.1-.2-1.100-1.500-1.100-2.800s.7-2 .9-2.300c.2-.3.500-.3.700-.3h.5c.2 0 .4 0 .6.500l.8 1.900c.1.200.1.400 0 .6l-.4.600-.3.400c-.1.200-.3.300-.1.600.2.300.8 1.300 1.700 2.100 1.200 1 2.100 1.300 2.400 1.500.3.100.5.100.6-.1l.9-1.100c.2-.3.400-.2.600-.1l1.800.9c.3.100.5.200.5.300.1.200.1.800-.1 1.400z"/></svg></a>
-<a class="fc" href="tel:+917009470312"><span>Contact us</span><i><svg viewBox="0 0 24 24"><path d="M6.6 10.8a15 15 0 006.6 6.6l2.200-2.200c.3-.3.700-.4 1-.2 1.100.4 2.300.6 3.600.6.600 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 013 4c0-.6.4-1 1-1h3.500c.6 0 1 .4 1 1 0 1.300.2 2.500.6 3.600.1.300 0 .7-.2 1z"/></svg></i></a>
+<a class="wa" href="https://wa.me/917009470312" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 00-8.6 15L2 22l5.2-1.4A10 10 0 1012 2zm5.4 14.2c-.2.6-1.2 1.1-1.7 1.2-.5.1-1.1.1-3.7-.8-3.1-1.1-5.1-4-5.2-4.2-.1-.2-1-1.2-1-2.9s.9-2.1 1.2-2.4c.2-.2.5-.3.7-.3h.5c.2 0 .5 0 .6.4.2.5.8 1.8.8 1.9.1.1.1.2 0 .4-.1.2-.1.3-.2.4-.1.1-.3.3-.4.4-.1.1-.2.2-.1.4.1.2.7 1.1 1.5 1.8.9.8 1.8 1.1 2.1 1.3.2.1.3.1.4-.1.1-.2.7-.8.9-1.1.2-.2.4-.2.7-.1.3.1 1.7.8 2 .9.3.2.5.2.6.2.2 0 .5-.1.7-.5z"></path></svg></a>
+<a class="fc" href="tel:+917009470312"><span>Contact us</span><i><svg viewBox="0 0 24 24"><path d="M6.6 10.8a15 15 0 006.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 013 4c0-.6.4-1 1-1h3.4c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.2.4.1.8-.2 1l-2.2 2.2z"></path></svg></i></a>
 <button id="top" aria-label="Back to top">&#8593;</button>
 
 <script>
 var $=function(s){return document.querySelector(s)},$$=function(s){return document.querySelectorAll(s)};
-// slider
 var sl=$$('.slide'),dots=$('#dots'),cur=0,tm;
 sl.forEach(function(_,i){var b=document.createElement('button');b.setAttribute('aria-label','Slide '+(i+1));b.onclick=function(){go(i)};dots.appendChild(b)});
-function go(n){cur=(n+sl.length)%sl.length;sl.forEach(function(s,i){s.classList.toggle('on',i===cur)});dots.childNodes.forEach(function(d,i){d.classList.toggle('on',i===cur)});clearInterval(tm);tm=setInterval(function(){go(cur+1)},6000)}
+function go(n){cur=(n+sl.length)%sl.length;sl.forEach(function(s,i){s.classList.toggle('on',i===cur)});dots.childNodes.forEach(function(d,i){d.classList.toggle('on',i===cur)});clearInterval(tm);tm=setInterval(function(){go(cur+1)},5000)}
 $('#pv').onclick=function(){go(cur-1)};$('#nx').onclick=function(){go(cur+1)};go(0);
-// reveal
 var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.15});
 $$('.rv').forEach(function(el){io.observe(el)});
-// scroll effects
 var hd=$('#hd'),bar=$('#bar'),tb=$('#top'),links=$$('nav>ul>li>a'),secs=['home','about','products','why','quality','contact'];
 function sc(){var y=window.scrollY,h=document.documentElement.scrollHeight-innerHeight;
 hd.classList.toggle('sm',y>60);bar.style.width=(y/h*100)+'%';tb.classList.toggle('show',y>500);
@@ -298,14 +285,9 @@ var c='home';secs.forEach(function(id){var e=document.getElementById(id);if(e&&e
 links.forEach(function(a){a.classList.toggle('on',a.getAttribute('href')==='#'+c)})}
 addEventListener('scroll',sc,{passive:true});sc();
 tb.onclick=function(){scrollTo({top:0,behavior:'smooth'})};
-// cert carousel
 $('#cp').onclick=function(){$('#tr').scrollBy({left:-230,behavior:'smooth'})};$('#cn').onclick=function(){$('#tr').scrollBy({left:230,behavior:'smooth'})};
-// nav
 $$('nav a').forEach(function(a){a.addEventListener('click',function(){$('#nav').classList.remove('open')})});
-// form
-$('#f').addEventListener('submit',function(e){e.preventDefault();var d=new FormData(e.target);
-var body='Name: '+d.get('name')+'\nEmail: '+d.get('email')+'\nPhone: '+d.get('phone')+'\n\n'+d.get('msg');
-location.href='mailto:sales@dsfortified.com?subject='+encodeURIComponent(d.get('subject')||'Website inquiry')+'&body='+encodeURIComponent(body)});
+$('#f').addEventListener('submit',function(e){e.preventDefault();var d=new FormData(e.target);var body='Name: '+d.get('name')+'\nEmail: '+d.get('email')+'\nPhone: '+d.get('phone')+'\n\n'+d.get('msg');location.href='mailto:sales@dsfortified.com?subject='+encodeURIComponent(d.get('subject')||'Website inquiry')+'&body='+encodeURIComponent(body)});
 </script>
 </body>
 </html>

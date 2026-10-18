@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 1000" role="img" aria-label="About image 2 placeholder">
+  <defs>
+    <linearGradient id="a2" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#a5c97c"/>
+      <stop offset="100%" stop-color="#325437"/>
+    </linearGradient>
+  </defs>
+  <rect width="700" height="1000" fill="#dfe9d6"/>
+  <rect x="60" y="120" width="580" height="780" rx="280" fill="url(#a2)"/>
+  <circle cx="350" cy="330" r="150" fill="#eff8d3" opacity="0.20"/>
+  <path d="M100 760C210 640 330 625 610 770v130H100z" fill="#17341d" opacity="0.55"/>
+  <text x="120" y="530" fill="#f4fbf0" font-family="Arial, sans-serif" font-size="54" font-weight="700">Export</text>
+  <text x="120" y="600" fill="#f4fbf0" font-family="Arial, sans-serif" font-size="46" font-weight="600">Ready</text>
+</svg>

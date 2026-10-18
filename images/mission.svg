@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 500" role="img" aria-label="Mission placeholder">
+  <defs>
+    <linearGradient id="m1" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f0cc6a"/>
+      <stop offset="100%" stop-color="#7d5a1d"/>
+    </linearGradient>
+  </defs>
+  <rect width="700" height="500" fill="url(#m1)"/>
+  <circle cx="560" cy="120" r="90" fill="#fff0bd" opacity="0.25"/>
+  <text x="80" y="230" fill="#fffef9" font-family="Arial, sans-serif" font-size="62" font-weight="700">Mission</text>
+  <text x="80" y="310" fill="#fffef9" font-family="Arial, sans-serif" font-size="30" letter-spacing="2">QUALITY • TRUST • GROWTH</text>
+</svg>

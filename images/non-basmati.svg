@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="Non-Basmati placeholder">
+  <rect width="600" height="400" fill="#d7c59c"/>
+  <circle cx="300" cy="200" r="140" fill="#fdf6df" opacity="0.23"/>
+  <text x="60" y="220" fill="#1a3321" font-family="Arial, sans-serif" font-size="60" font-weight="700">Non-Basmati</text>
+  <text x="60" y="295" fill="#1a3321" font-family="Arial, sans-serif" font-size="30" letter-spacing="2">REGULAR • BULK • RELIABLE</text>
+</svg>

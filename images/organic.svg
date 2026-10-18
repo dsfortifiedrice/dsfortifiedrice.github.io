@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="Organic rice placeholder">
+  <rect width="600" height="400" fill="#dfe9d6"/>
+  <circle cx="300" cy="200" r="140" fill="#f8faed" opacity="0.25"/>
+  <text x="60" y="220" fill="#1d3319" font-family="Arial, sans-serif" font-size="58" font-weight="700">Organic</text>
+  <text x="60" y="295" fill="#1d3319" font-family="Arial, sans-serif" font-size="30" letter-spacing="2">PEST FREE • CLEAN • SAFE</text>
+</svg>
